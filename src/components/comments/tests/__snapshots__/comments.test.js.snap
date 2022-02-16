@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comments Component Comments component snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Comments>
+    <div
+      className="comments"
+    >
+      <p>
+         Comments
+      </p>
+      <div
+        className="comments__form d-flex w-100 my-2"
+      >
+        <img
+          alt=""
+          className="rounded-circle mr-3"
+          src="https://lh3.googleusercontent.com/a-/AOh14GgEX3SB8FVF-3OLqmdT3zAW0vRL6alhlseVN0bn=s96-c"
+        />
+        <form
+          className="d-flex flex-grow-1"
+          onSubmit={[Function]}
+        >
+          <input
+            className="flex-grow-1"
+            onChange={[Function]}
+            placeholder="Commenting publicly as ..."
+            type="text"
+            value=""
+          />
+          <button
+            className="border-0 p-2"
+          >
+            Comment
+          </button>
+        </form>
+      </div>
+      <div
+        className="comments__list"
+      />
+    </div>
+  </Comments>
+</Provider>
+`;

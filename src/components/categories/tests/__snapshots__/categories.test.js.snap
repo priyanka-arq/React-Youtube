@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories component Should render categories  correctly  Should render categories  correctly  1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Categories
+    handleClick={true}
+  >
+    <div
+      className="categories"
+      data-test="categoriesComponent"
+    >
+      <HiChevronLeft>
+        <IconBase
+          attr={
+            Object {
+              "fill": "currentColor",
+              "viewBox": "0 0 20 20",
+            }
+          }
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 20 20"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+              fillRule="evenodd"
+              key="0"
+            />
+          </svg>
+        </IconBase>
+      </HiChevronLeft>
+      <span
+        className="active"
+        data-test="buttonComponent"
+        key="0"
+        onClick={[Function]}
+      >
+        All
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="1"
+        onClick={[Function]}
+      >
+        Javascript
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="2"
+        onClick={[Function]}
+      >
+        React js
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="3"
+        onClick={[Function]}
+      >
+        Angular js
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="4"
+        onClick={[Function]}
+      >
+        React Native
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="5"
+        onClick={[Function]}
+      >
+        use of API
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="6"
+        onClick={[Function]}
+      >
+        Redux
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="7"
+        onClick={[Function]}
+      >
+        Poor Coder
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="8"
+        onClick={[Function]}
+      >
+        Algorithm Art 
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="9"
+        onClick={[Function]}
+      >
+        Meditation music
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="10"
+        onClick={[Function]}
+      >
+        Music
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="11"
+        onClick={[Function]}
+      >
+        Thrillers
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="12"
+        onClick={[Function]}
+      >
+        Courses
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="13"
+        onClick={[Function]}
+      >
+        Indian soap operas
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="14"
+        onClick={[Function]}
+      >
+        ios
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="15"
+        onClick={[Function]}
+      >
+        Conversation
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="16"
+        onClick={[Function]}
+      >
+        Comedy
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="17"
+        onClick={[Function]}
+      >
+        Live
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="18"
+        onClick={[Function]}
+      >
+        Nature
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="19"
+        onClick={[Function]}
+      >
+        T-Series
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="20"
+        onClick={[Function]}
+      >
+        Music
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="21"
+        onClick={[Function]}
+      >
+        Guitar
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="22"
+        onClick={[Function]}
+      >
+        Bengali Songs
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="23"
+        onClick={[Function]}
+      >
+        Coding
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="24"
+        onClick={[Function]}
+      >
+        Cricket
+      </span>
+      <span
+        className=""
+        data-test="buttonComponent"
+        key="25"
+        onClick={[Function]}
+      >
+        Football
+      </span>
+      <HiChevronRight>
+        <IconBase
+          attr={
+            Object {
+              "fill": "currentColor",
+              "viewBox": "0 0 20 20",
+            }
+          }
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 20 20"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              fillRule="evenodd"
+              key="0"
+            />
+          </svg>
+        </IconBase>
+      </HiChevronRight>
+    </div>
+  </Categories>
+</Provider>
+`;

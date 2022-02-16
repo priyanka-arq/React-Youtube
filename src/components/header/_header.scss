@@ -1,0 +1,101 @@
+@import "../../style/base";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  height: 10vh;
+  width: 100%;
+  background-color: $black-primary;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+
+  &__menu {
+    display: none;
+  }
+  &__logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    display: flex;
+  }
+
+  form {
+    flex: 0.6;
+    display: flex;
+    padding: 0.1rem;
+    margin: 0.1rem;
+    border-radius: 3px;
+    border: 1.2px solid;
+    background-color: $black-secondary;
+
+    input {
+      width: 100%;
+      border: none;
+      background-color: transparent;
+      font-weight: 500;
+      border-radius: 3px;
+      padding: 0.5em;
+      color: $text-color;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    button {
+      padding: 0 1.25rem;
+      color: #fff;
+      background-color: #909090;
+    }
+  }
+
+  &__icons {
+    flex: 0.15;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      width: 40px;
+      object-fit: contain;
+      margin-left: 5px;
+    }
+  }
+}
+
+//$breakpoint-small: 520px
+@media (max-width: $breakpoint-small) {
+  .header {
+    padding: 1rem;
+
+    form {
+      flex: 1;
+      margin: 1rem;
+
+      input {
+        padding: 0.2rem;
+      }
+
+      button {
+        font-size: 16px;
+        border: none;
+        background-color: transparent;
+      }
+    }
+    &__menu {
+      display: block;
+    }
+
+    &__logo {
+      display: none;
+    }
+    //target everything except img
+    &__icons *:not(img) {
+      display: none;
+    }
+  }
+} ;

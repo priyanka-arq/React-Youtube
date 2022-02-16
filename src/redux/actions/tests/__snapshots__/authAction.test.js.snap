@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LOGOUT logout action 1`] = `
+Array [
+  Object {
+    "type": "LOGOUT",
+  },
+]
+`;
+
+exports[`auth action login action 1`] = `
+Array [
+  Object {
+    "type": "LOGIN_REQUEST",
+  },
+  Object {
+    "payload": "Firebase: Error (auth/operation-not-supported-in-this-environment).",
+    "type": "LOGIN_FAILURE",
+  },
+]
+`;

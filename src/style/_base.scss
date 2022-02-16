@@ -1,0 +1,36 @@
+//colors
+$text-color: #b1bdb4;
+$black-primary: #16181b;
+$black-secondary: #121417;
+$background-color: #4c4c4c;
+
+//breakpoint
+$breakpoint-medium: 1224px;
+$breakpoint-small: 520px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  // background-image: url("https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&auto=format");
+  background: $black-primary;
+  background-attachment: fixed;
+  color: $text-color;
+  letter-spacing: 0.1px;
+}
+
+//display line in one row to fit box with ...
+@mixin line-clamp($number) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $number;
+  -webkit-box-orient: vertical;
+}
+
+//make scrollabr invisible
+::-webkit-scrollbar {
+  width: 0px;
+}

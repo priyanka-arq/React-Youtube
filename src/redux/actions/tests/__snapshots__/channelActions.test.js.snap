@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CHANNEL_DETAILS ACTION dispatch channel details actions 1`] = `
+Array [
+  Object {
+    "type": "CHANNEL_DETAILS_REQUEST",
+  },
+]
+`;

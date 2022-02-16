@@ -1,0 +1,969 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Home component Should render Home correctly  1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      location={
+        Object {
+          "hash": "",
+          "key": "default",
+          "pathname": "/",
+          "search": "",
+          "state": null,
+        }
+      }
+      navigationType="POP"
+      navigator={
+        Object {
+          "action": "POP",
+          "back": [Function],
+          "block": [Function],
+          "createHref": [Function],
+          "forward": [Function],
+          "go": [Function],
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Home>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Categories>
+              <div
+                className="categories"
+                data-test="categoriesComponent"
+              >
+                <HiChevronLeft>
+                  <IconBase
+                    attr={
+                      Object {
+                        "fill": "currentColor",
+                        "viewBox": "0 0 20 20",
+                      }
+                    }
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </IconBase>
+                </HiChevronLeft>
+                <span
+                  className="active"
+                  data-test="buttonComponent"
+                  key="0"
+                  onClick={[Function]}
+                >
+                  All
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="1"
+                  onClick={[Function]}
+                >
+                  Javascript
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="2"
+                  onClick={[Function]}
+                >
+                  React js
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="3"
+                  onClick={[Function]}
+                >
+                  Angular js
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="4"
+                  onClick={[Function]}
+                >
+                  React Native
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="5"
+                  onClick={[Function]}
+                >
+                  use of API
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="6"
+                  onClick={[Function]}
+                >
+                  Redux
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="7"
+                  onClick={[Function]}
+                >
+                  Poor Coder
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="8"
+                  onClick={[Function]}
+                >
+                  Algorithm Art 
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="9"
+                  onClick={[Function]}
+                >
+                  Meditation music
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="10"
+                  onClick={[Function]}
+                >
+                  Music
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="11"
+                  onClick={[Function]}
+                >
+                  Thrillers
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="12"
+                  onClick={[Function]}
+                >
+                  Courses
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="13"
+                  onClick={[Function]}
+                >
+                  Indian soap operas
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="14"
+                  onClick={[Function]}
+                >
+                  ios
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="15"
+                  onClick={[Function]}
+                >
+                  Conversation
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="16"
+                  onClick={[Function]}
+                >
+                  Comedy
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="17"
+                  onClick={[Function]}
+                >
+                  Live
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="18"
+                  onClick={[Function]}
+                >
+                  Nature
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="19"
+                  onClick={[Function]}
+                >
+                  T-Series
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="20"
+                  onClick={[Function]}
+                >
+                  Music
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="21"
+                  onClick={[Function]}
+                >
+                  Guitar
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="22"
+                  onClick={[Function]}
+                >
+                  Bengali Songs
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="23"
+                  onClick={[Function]}
+                >
+                  Coding
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="24"
+                  onClick={[Function]}
+                >
+                  Cricket
+                </span>
+                <span
+                  className=""
+                  data-test="buttonComponent"
+                  key="25"
+                  onClick={[Function]}
+                >
+                  Football
+                </span>
+                <HiChevronRight>
+                  <IconBase
+                    attr={
+                      Object {
+                        "fill": "currentColor",
+                        "viewBox": "0 0 20 20",
+                      }
+                    }
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      strokeWidth="0"
+                      style={
+                        Object {
+                          "color": undefined,
+                        }
+                      }
+                      viewBox="0 0 20 20"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                        fillRule="evenodd"
+                        key="0"
+                      />
+                    </svg>
+                  </IconBase>
+                </HiChevronRight>
+              </div>
+            </Categories>
+            <Row>
+              <div
+                className="row"
+              >
+                <InfiniteScroll
+                  className="row"
+                  dataLength={2}
+                  hasMore={true}
+                  loader={
+                    <div
+                      className="spinner-border text-danger d-block mx-auto"
+                    />
+                  }
+                  next={[Function]}
+                >
+                  <div
+                    className="infinite-scroll-component__outerdiv"
+                    style={Object {}}
+                  >
+                    <div
+                      className="infinite-scroll-component row"
+                      style={
+                        Object {
+                          "WebkitOverflowScrolling": "touch",
+                          "height": "auto",
+                          "overflow": "auto",
+                        }
+                      }
+                    >
+                      <Col
+                        lg={3}
+                        md={4}
+                      >
+                        <div
+                          className="col-lg-3 col-md-4"
+                        >
+                          <Video
+                            homeVideos={true}
+                            key="ATElufr0OiE"
+                            video={
+                              Object {
+                                "contentDetails": Object {
+                                  "caption": "false",
+                                  "contentRating": Object {},
+                                  "definition": "hd",
+                                  "dimension": "2d",
+                                  "duration": "PT5M36S",
+                                  "licensedContent": true,
+                                  "projection": "rectangular",
+                                  "regionRestriction": Object {
+                                    "blocked": Array [
+                                      "US",
+                                    ],
+                                  },
+                                },
+                                "etag": "8XDUSTuq-9vHEgBH-g3R1QOmD30",
+                                "id": "ATElufr0OiE",
+                                "kind": "youtube#video",
+                                "snippet": Object {
+                                  "categoryId": "10",
+                                  "channelId": "UCTNtRdBAiZtHP9w7JinzfUg",
+                                  "channelTitle": "SonyMusicSouthVEVO",
+                                  "defaultAudioLanguage": "en",
+                                  "description": "A lilting melody from the famed #DarbukaSiva , #SidSriram and #Thamarai trio! Presenting the loop-worthy #MudhalNeeMudivumNee title track from the composer's directorial debut!
+
+Hit play and enjoy the official Tamil song video of #MNMN now!
+
+Stream now - https://SMI.lnk.to/MNMNTitleTrackDC
+
+Composer's Note:
+
+The song Mudhal Nee Mudivum Nee for me is a collage of sounds from various musical soundscapes that relate to nostalgia and the wonderful memories associated with it. 
+
+The Sarod’s classical texture converses with the voice to create that feeling, coupled with strings that form a sonic movement which often plays around with trancy layers of interesting shapes and patterns of sounds.
+
+Darbuka Siva
+
+Movie - Mudhal Nee Mudivum Nee
+Song - Mudhal Nee Mudivum Nee
+Singer - Sid Sriram, Darbuka Siva
+Composer - Darbuka Siva
+Lyrics - Thamarai
+Written and Directed by Darbuka Siva
+DOP - Sujith Saarang
+Editing - Sreejith Saarang
+Produced by Super Talkies - Sameer Bharat Ram
+
+Musicians:
+Sarod: Debasmita Bhattacharya
+Electric Guitar, Acoustic guitar, Banjo, Ukulele: Keba Jeremiah
+Keyboard: Shyam Benjamin 
+Music arranged and programmed by Darbuka Siva
+Mixed and Mastered by Balu Thankachan at 20dB Soundstudios, Chennai.
+Assisted by Elwin Joseph, Hariharan
+ 
+Recorded at 
+Seed Studios, Chennai
+20 dB Soundstudios, Chennai
+RJ Studio, Kolkata
+Recording Engineers: Dheeleben, Hafeez, Avinash Sathish, Rana Mondal
+ 
+Lyric Video Credits: 
+Artwork Hand drawn by Purva Raghunath
+Video Effects: Pradeep
+Video Editing: Darbuka Siva
+
+Music Label - Sony Music Entertainment India Pvt. Ltd.
+
+© 2022 Sony Music Entertainment India Pvt. Ltd.
+
+Subscribe Now: http://bit.ly/SonyMusicSouthVevo
+Subscribe Now: http://bit.ly/SonyMusicSouthYT
+Follow us: https://www.instagram.com/sonymusic_south/
+Follow us: Twitter: https://twitter.com/SonyMusicSouth
+Like us: Facebook: https://www.facebook.com/SonyMusicSouth
+
+http://vevo.ly/TSdD3a",
+                                  "liveBroadcastContent": "none",
+                                  "localized": Object {
+                                    "description": "A lilting melody from the famed #DarbukaSiva , #SidSriram and #Thamarai trio! Presenting the loop-worthy #MudhalNeeMudivumNee title track from the composer's directorial debut!
+
+Hit play and enjoy the official Tamil song video of #MNMN now!
+
+Stream now - https://SMI.lnk.to/MNMNTitleTrackDC
+
+Composer's Note:
+
+The song Mudhal Nee Mudivum Nee for me is a collage of sounds from various musical soundscapes that relate to nostalgia and the wonderful memories associated with it. 
+
+The Sarod’s classical texture converses with the voice to create that feeling, coupled with strings that form a sonic movement which often plays around with trancy layers of interesting shapes and patterns of sounds.
+
+Darbuka Siva
+
+Movie - Mudhal Nee Mudivum Nee
+Song - Mudhal Nee Mudivum Nee
+Singer - Sid Sriram, Darbuka Siva
+Composer - Darbuka Siva
+Lyrics - Thamarai
+Written and Directed by Darbuka Siva
+DOP - Sujith Saarang
+Editing - Sreejith Saarang
+Produced by Super Talkies - Sameer Bharat Ram
+
+Musicians:
+Sarod: Debasmita Bhattacharya
+Electric Guitar, Acoustic guitar, Banjo, Ukulele: Keba Jeremiah
+Keyboard: Shyam Benjamin 
+Music arranged and programmed by Darbuka Siva
+Mixed and Mastered by Balu Thankachan at 20dB Soundstudios, Chennai.
+Assisted by Elwin Joseph, Hariharan
+ 
+Recorded at 
+Seed Studios, Chennai
+20 dB Soundstudios, Chennai
+RJ Studio, Kolkata
+Recording Engineers: Dheeleben, Hafeez, Avinash Sathish, Rana Mondal
+ 
+Lyric Video Credits: 
+Artwork Hand drawn by Purva Raghunath
+Video Effects: Pradeep
+Video Editing: Darbuka Siva
+
+Music Label - Sony Music Entertainment India Pvt. Ltd.
+
+© 2022 Sony Music Entertainment India Pvt. Ltd.
+
+Subscribe Now: http://bit.ly/SonyMusicSouthVevo
+Subscribe Now: http://bit.ly/SonyMusicSouthYT
+Follow us: https://www.instagram.com/sonymusic_south/
+Follow us: Twitter: https://twitter.com/SonyMusicSouth
+Like us: Facebook: https://www.facebook.com/SonyMusicSouth
+
+http://vevo.ly/TSdD3a",
+                                    "title": "Mudhal Nee Mudivum Nee - Title Track Video | Darbuka Siva | Sid Sriram | Thamarai",
+                                  },
+                                  "publishedAt": "2022-01-31T16:27:42Z",
+                                  "tags": Array [
+                                    "Sony Music South",
+                                    "Sony Music",
+                                    "Latest Song",
+                                    "Tamil song",
+                                    "Tamil Latest Song",
+                                    "Tamil Latest Songs 2018",
+                                    "Tamil Latest Songs 2019",
+                                    "Latest songs in Tamil",
+                                    "Songs in Tamil",
+                                    "Latest Tamil Movies",
+                                    "Tamil Movie Songs",
+                                    "Latest Video Songs Tamil",
+                                    "latest Tamil Love Songs",
+                                    "Latest Tamil Hit Songs",
+                                    "darbuka siva songs",
+                                    "sid sriram songs",
+                                    "sid sriram tamil hits",
+                                    "darbuka siva tamil songs",
+                                    "mudhalum nee mudivum nee trailer",
+                                    "Darbuka Siva",
+                                    "Mudhal Nee Mudivum Nee",
+                                    "Sony",
+                                    "Pvt.",
+                                  ],
+                                  "thumbnails": Object {
+                                    "default": Object {
+                                      "height": 90,
+                                      "url": "https://i.ytimg.com/vi/ATElufr0OiE/default.jpg",
+                                      "width": 120,
+                                    },
+                                    "high": Object {
+                                      "height": 360,
+                                      "url": "https://i.ytimg.com/vi/ATElufr0OiE/hqdefault.jpg",
+                                      "width": 480,
+                                    },
+                                    "maxres": Object {
+                                      "height": 720,
+                                      "url": "https://i.ytimg.com/vi/ATElufr0OiE/maxresdefault.jpg",
+                                      "width": 1280,
+                                    },
+                                    "medium": Object {
+                                      "height": 180,
+                                      "url": "https://i.ytimg.com/vi/ATElufr0OiE/mqdefault.jpg",
+                                      "width": 320,
+                                    },
+                                    "standard": Object {
+                                      "height": 480,
+                                      "url": "https://i.ytimg.com/vi/ATElufr0OiE/sddefault.jpg",
+                                      "width": 640,
+                                    },
+                                  },
+                                  "title": "Mudhal Nee Mudivum Nee - Title Track Video | Darbuka Siva | Sid Sriram | Thamarai",
+                                },
+                                "statistics": Object {
+                                  "commentCount": "2850",
+                                  "favoriteCount": "0",
+                                  "likeCount": "133120",
+                                  "viewCount": "2088681",
+                                },
+                              }
+                            }
+                          >
+                            <div
+                              className="video"
+                              onClick={[Function]}
+                            >
+                              <div
+                                className="video__top"
+                              >
+                                <t
+                                  afterLoad={[Function]}
+                                  beforeLoad={[Function]}
+                                  delayMethod="throttle"
+                                  delayTime={300}
+                                  effect="blur"
+                                  placeholderSrc={null}
+                                  src="https://i.ytimg.com/vi/ATElufr0OiE/mqdefault.jpg"
+                                  threshold={100}
+                                  useIntersectionObserver={true}
+                                  visibleByDefault={false}
+                                  wrapperClassName=""
+                                >
+                                  <span
+                                    className=" lazy-load-image-background blur"
+                                    style={
+                                      Object {
+                                        "backgroundImage": "",
+                                        "backgroundSize": "",
+                                        "display": "inline-block",
+                                        "height": undefined,
+                                        "width": undefined,
+                                      }
+                                    }
+                                  >
+                                    <t
+                                      afterLoad={[Function]}
+                                      beforeLoad={[Function]}
+                                      delayMethod="throttle"
+                                      delayTime={300}
+                                      threshold={100}
+                                      useIntersectionObserver={true}
+                                      visibleByDefault={false}
+                                    >
+                                      <img
+                                        onLoad={[Function]}
+                                        src="https://i.ytimg.com/vi/ATElufr0OiE/mqdefault.jpg"
+                                      />
+                                    </t>
+                                  </span>
+                                </t>
+                                <span
+                                  className="video__top__duration"
+                                >
+                                  05:36
+                                </span>
+                              </div>
+                              <div
+                                className="video__title"
+                              >
+                                Mudhal Nee Mudivum Nee - Title Track Video | Darbuka Siva | Sid Sriram | Thamarai
+                              </div>
+                              <div
+                                className="video__details"
+                              >
+                                <span>
+                                  <AiFillEye>
+                                    <IconBase
+                                      attr={
+                                        Object {
+                                          "viewBox": "0 0 1024 1024",
+                                        }
+                                      }
+                                    >
+                                      <svg
+                                        fill="currentColor"
+                                        height="1em"
+                                        stroke="currentColor"
+                                        strokeWidth="0"
+                                        style={
+                                          Object {
+                                            "color": undefined,
+                                          }
+                                        }
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"
+                                          key="0"
+                                        />
+                                      </svg>
+                                    </IconBase>
+                                  </AiFillEye>
+                                   
+                                  2m
+                                   Views •
+                                </span>
+                                <span>
+                                   
+                                  3 days ago
+                                </span>
+                              </div>
+                              <div
+                                className="video__channel"
+                              >
+                                <t
+                                  afterLoad={[Function]}
+                                  beforeLoad={[Function]}
+                                  delayMethod="throttle"
+                                  delayTime={300}
+                                  effect="blur"
+                                  placeholderSrc={null}
+                                  src="https://i.ytimg.com/vi/ATElufr0OiE/default.jpg"
+                                  threshold={100}
+                                  useIntersectionObserver={true}
+                                  visibleByDefault={false}
+                                  wrapperClassName=""
+                                >
+                                  <span
+                                    className=" lazy-load-image-background blur"
+                                    style={
+                                      Object {
+                                        "backgroundImage": "",
+                                        "backgroundSize": "",
+                                        "display": "inline-block",
+                                        "height": undefined,
+                                        "width": undefined,
+                                      }
+                                    }
+                                  >
+                                    <t
+                                      afterLoad={[Function]}
+                                      beforeLoad={[Function]}
+                                      delayMethod="throttle"
+                                      delayTime={300}
+                                      threshold={100}
+                                      useIntersectionObserver={true}
+                                      visibleByDefault={false}
+                                    >
+                                      <img
+                                        onLoad={[Function]}
+                                        src="https://i.ytimg.com/vi/ATElufr0OiE/default.jpg"
+                                      />
+                                    </t>
+                                  </span>
+                                </t>
+                                <p>
+                                  SonyMusicSouthVEVO
+                                </p>
+                              </div>
+                            </div>
+                          </Video>
+                        </div>
+                      </Col>
+                      <Col
+                        lg={3}
+                        md={4}
+                      >
+                        <div
+                          className="col-lg-3 col-md-4"
+                        >
+                          <Video
+                            homeVideos={true}
+                            key="67Fuq_oRPMw"
+                            video={
+                              Object {
+                                "contentDetails": Object {
+                                  "caption": "false",
+                                  "contentRating": Object {},
+                                  "definition": "hd",
+                                  "dimension": "2d",
+                                  "duration": "PT1M",
+                                  "licensedContent": true,
+                                  "projection": "rectangular",
+                                },
+                                "etag": "PK0np5HEbZ3Cz6FX3hZ7aSXu4As",
+                                "id": "67Fuq_oRPMw",
+                                "kind": "youtube#video",
+                                "snippet": Object {
+                                  "categoryId": "24",
+                                  "channelId": "UC1J-EgBVeo-TUaC5m0t6bKg",
+                                  "channelTitle": "Mr. Easy Tamil",
+                                  "defaultAudioLanguage": "ta",
+                                  "defaultLanguage": "en-IN",
+                                  "description": "",
+                                  "liveBroadcastContent": "none",
+                                  "localized": Object {
+                                    "description": "",
+                                    "title": "balloon and syringe experiment 🤩 gone wrong 🤯 #shorts",
+                                  },
+                                  "publishedAt": "2022-01-31T03:42:51Z",
+                                  "tags": Array [
+                                    "craft tamil channel",
+                                    "craft tamil",
+                                    "experiment in tamil",
+                                    "experiment tamil",
+                                    "easy experiment",
+                                    "science experiment",
+                                    "magic tricks",
+                                    "balloon experiment gone wrong",
+                                    "Mr easy tamil",
+                                    "laminar flow experiment",
+                                    "satisfying experiment",
+                                  ],
+                                  "thumbnails": Object {
+                                    "default": Object {
+                                      "height": 90,
+                                      "url": "https://i.ytimg.com/vi/67Fuq_oRPMw/default.jpg",
+                                      "width": 120,
+                                    },
+                                    "high": Object {
+                                      "height": 360,
+                                      "url": "https://i.ytimg.com/vi/67Fuq_oRPMw/hqdefault.jpg",
+                                      "width": 480,
+                                    },
+                                    "medium": Object {
+                                      "height": 180,
+                                      "url": "https://i.ytimg.com/vi/67Fuq_oRPMw/mqdefault.jpg",
+                                      "width": 320,
+                                    },
+                                  },
+                                  "title": "balloon and syringe experiment 🤩 gone wrong 🤯 #shorts",
+                                },
+                                "statistics": Object {
+                                  "commentCount": "66",
+                                  "favoriteCount": "0",
+                                  "likeCount": "158897",
+                                  "viewCount": "2531259",
+                                },
+                              }
+                            }
+                          >
+                            <div
+                              className="video"
+                              onClick={[Function]}
+                            >
+                              <div
+                                className="video__top"
+                              >
+                                <t
+                                  afterLoad={[Function]}
+                                  beforeLoad={[Function]}
+                                  delayMethod="throttle"
+                                  delayTime={300}
+                                  effect="blur"
+                                  placeholderSrc={null}
+                                  src="https://i.ytimg.com/vi/67Fuq_oRPMw/mqdefault.jpg"
+                                  threshold={100}
+                                  useIntersectionObserver={true}
+                                  visibleByDefault={false}
+                                  wrapperClassName=""
+                                >
+                                  <span
+                                    className=" lazy-load-image-background blur"
+                                    style={
+                                      Object {
+                                        "backgroundImage": "",
+                                        "backgroundSize": "",
+                                        "display": "inline-block",
+                                        "height": undefined,
+                                        "width": undefined,
+                                      }
+                                    }
+                                  >
+                                    <t
+                                      afterLoad={[Function]}
+                                      beforeLoad={[Function]}
+                                      delayMethod="throttle"
+                                      delayTime={300}
+                                      threshold={100}
+                                      useIntersectionObserver={true}
+                                      visibleByDefault={false}
+                                    >
+                                      <img
+                                        onLoad={[Function]}
+                                        src="https://i.ytimg.com/vi/67Fuq_oRPMw/mqdefault.jpg"
+                                      />
+                                    </t>
+                                  </span>
+                                </t>
+                                <span
+                                  className="video__top__duration"
+                                >
+                                  01:00
+                                </span>
+                              </div>
+                              <div
+                                className="video__title"
+                              >
+                                balloon and syringe experiment 🤩 gone wrong 🤯 #shorts
+                              </div>
+                              <div
+                                className="video__details"
+                              >
+                                <span>
+                                  <AiFillEye>
+                                    <IconBase
+                                      attr={
+                                        Object {
+                                          "viewBox": "0 0 1024 1024",
+                                        }
+                                      }
+                                    >
+                                      <svg
+                                        fill="currentColor"
+                                        height="1em"
+                                        stroke="currentColor"
+                                        strokeWidth="0"
+                                        style={
+                                          Object {
+                                            "color": undefined,
+                                          }
+                                        }
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                      >
+                                        <path
+                                          d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z"
+                                          key="0"
+                                        />
+                                      </svg>
+                                    </IconBase>
+                                  </AiFillEye>
+                                   
+                                  3m
+                                   Views •
+                                </span>
+                                <span>
+                                   
+                                  4 days ago
+                                </span>
+                              </div>
+                              <div
+                                className="video__channel"
+                              >
+                                <t
+                                  afterLoad={[Function]}
+                                  beforeLoad={[Function]}
+                                  delayMethod="throttle"
+                                  delayTime={300}
+                                  effect="blur"
+                                  placeholderSrc={null}
+                                  src="https://i.ytimg.com/vi/67Fuq_oRPMw/default.jpg"
+                                  threshold={100}
+                                  useIntersectionObserver={true}
+                                  visibleByDefault={false}
+                                  wrapperClassName=""
+                                >
+                                  <span
+                                    className=" lazy-load-image-background blur"
+                                    style={
+                                      Object {
+                                        "backgroundImage": "",
+                                        "backgroundSize": "",
+                                        "display": "inline-block",
+                                        "height": undefined,
+                                        "width": undefined,
+                                      }
+                                    }
+                                  >
+                                    <t
+                                      afterLoad={[Function]}
+                                      beforeLoad={[Function]}
+                                      delayMethod="throttle"
+                                      delayTime={300}
+                                      threshold={100}
+                                      useIntersectionObserver={true}
+                                      visibleByDefault={false}
+                                    >
+                                      <img
+                                        onLoad={[Function]}
+                                        src="https://i.ytimg.com/vi/67Fuq_oRPMw/default.jpg"
+                                      />
+                                    </t>
+                                  </span>
+                                </t>
+                                <p>
+                                  Mr. Easy Tamil
+                                </p>
+                              </div>
+                            </div>
+                          </Video>
+                        </div>
+                      </Col>
+                    </div>
+                  </div>
+                </InfiniteScroll>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </Home>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

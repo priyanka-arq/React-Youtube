@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render comment component correctly Should render Comment component correctly  1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Comment
+    comment={true}
+  >
+    <div
+      className="comment p-2 d-flex"
+    >
+      <img
+        alt=""
+        className="rounded-circle mr-3"
+      />
+      <div
+        className="comment__body"
+      >
+        <p
+          className="comment__header mb-1"
+        >
+           • 
+          a few seconds ago
+        </p>
+        <p />
+        <div>
+          <span
+            className="mr-3"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+          >
+            <FiThumbsUp
+              size={26}
+            >
+              <IconBase
+                attr={
+                  Object {
+                    "fill": "none",
+                    "stroke": "currentColor",
+                    "strokeLinecap": "round",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "2",
+                    "viewBox": "0 0 24 24",
+                  }
+                }
+                size={26}
+              >
+                <svg
+                  fill="none"
+                  height={26}
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width={26}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    key="0"
+                  />
+                </svg>
+              </IconBase>
+            </FiThumbsUp>
+          </span>
+          <span
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+          >
+            0
+          </span>
+          <span
+            className="mr-3"
+            style={
+              Object {
+                "marginRight": "10px",
+              }
+            }
+          >
+            <FiThumbsDown
+              size={26}
+            >
+              <IconBase
+                attr={
+                  Object {
+                    "fill": "none",
+                    "stroke": "currentColor",
+                    "strokeLinecap": "round",
+                    "strokeLinejoin": "round",
+                    "strokeWidth": "2",
+                    "viewBox": "0 0 24 24",
+                  }
+                }
+                size={26}
+              >
+                <svg
+                  fill="none"
+                  height={26}
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width={26}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+                    key="0"
+                  />
+                </svg>
+              </IconBase>
+            </FiThumbsDown>
+          </span>
+          <button>
+            REPLY
+          </button>
+        </div>
+      </div>
+    </div>
+  </Comment>
+</Provider>
+`;
